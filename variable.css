@@ -1,0 +1,55 @@
+/* CSS Variables for Light/Dark Mode */
+:root {
+  /* Light Mode Colors */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #eef2f7;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  
+  /* Brand Colors */
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --primary-dark: #1d4ed8;
+  --accent: #06b6d4;
+  --accent-light: #22d3ee;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #2563eb, #06b6d4);
+  --gradient-text: linear-gradient(135deg, #2563eb, #06b6d4);
+  --gradient-hero: linear-gradient(180deg, #f8fafc 0%, #e0e7ff 100%);
+  
+  /* Shadows */
+  --shadow-soft: 0 4px 20px -4px rgba(15, 23, 42, 0.1);
+  --shadow-card: 0 10px 40px -10px rgba(15, 23, 42, 0.15);
+  --shadow-glow: 0 0 30px rgba(37, 99, 235, 0.3);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Footer properties */
+  --footer-divider: rgba(15, 23, 42, 0.1);
+
+  /* Dark  */
+  --footer-divider: rgba(255, 255, 255, 0.15);
+}
+
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --bg-primary: #0a1628;
+  --bg-secondary: #0f1f35;
+  --bg-card: #132337;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: #1e3a5f;
+  
+  --gradient-hero: linear-gradient(180deg, #0a1628 0%, #132337 100%);
+  --shadow-soft: 0 4px 20px -4px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 10px 40px -10px rgba(0, 0, 0, 0.4);
+}

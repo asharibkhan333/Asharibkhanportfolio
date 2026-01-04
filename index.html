@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asharib Khan - Frontend Developer Portfolio. Crafting modern, interactive, and visually appealing web experiences.">
+  <meta name="keywords" content="Frontend Developer, Web Developer, Portfolio, Asharib Khan, HTML, CSS, JavaScript">
+  <meta name="author" content="Asharib Khan">
+  <title>Asharib Khan | Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="pic/ak.png" alt="AK Logo" class="logo-img">
+      </a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#why-hire-me" class="nav-link">Why Hire Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-sun sun-icon"></i>
+          <i class="fas fa-moon moon-icon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+<!-- Mobile Side Menu -->
+  <aside class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="#" class="mobile-logo">
+        <img src="https://ui-avatars.com/api/?name=AK&background=2563eb&color=fff&size=128&bold=true&format=png" alt="AK Logo" class="mobile-logo-img">
+      </a>
+      <button class="mobile-close" id="mobile-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#why-hire-me" class="mobile-nav-link">Why Hire Me</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#experience" class="mobile-nav-link">Experience</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <div class="mobile-social">
+        <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/asharib-khan-1a963a353" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/asharikhan123?t=9BQ1yl5gluHxcsyO4OWg5A&s=09" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to <span class="gradient-text">My Portfolio</span></h1>
+      <p class="hero-description">I'm a passionate frontend developer crafting modern, interactive, and visually appealing web experiences. Dive in to explore my journey and work!</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Portfolio</span>
+          <i class="fas fa-arrow-down"></i>
+        </a>
+        <a href="dist/Blue and Gray Simple Professional CV Resume.pdf" class="btn btn-outline">
+          <i class="fas fa-download"></i>
+          <span>Download Resume</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro-wave">
+        <span class="wave-emoji">👋</span>
+        <h2 class="hello-text" id="hello-text">Hello!</h2>
+      </div>
+      <h3 class="intro-heading">I'm <span class="gradient-text">Asharib Khan</span> — Frontend Developer</h3>
+      <div class="intro-image-wrapper">
+        <div class="intro-image-glow"></div>
+        <div class="intro-image">
+          <img src="pic/my pic.jpeg" alt="Asharib Khan Profile" class="profile-img">
+        </div>
+      </div>
+      <div class="intro-buttons">
+        <a href="#about" class="btn btn-primary">
+          <i class="fas fa-user"></i>
+          <span>About Me</span>
+        </a>
+        <a href="dist/Blue and Gray Simple Professional CV Resume.pdf" class="btn btn-outline">
+          <i class="fas fa-file-alt"></i>
+          <span>Resume</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I’m a Frontend Developer skilled in HTML, CSS, JavaScript, TypeScript, Bootstrap, Tailwind CSS, and SCSS. I focus on building clean, responsive, and user-friendly web interfaces with modern design practices. I enjoy turning UI designs into functional websites and continuously improving my skills through real-world projects and software house assignments.</p>
+        </div>
+        <div class="about-card">
+          <div class="stars">
+            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          </div>
+          <div class="experience-number">
+            <span class="number">1</span>
+          </div>
+          <p class="experience-text">Year Experience</p>
+          <p class="experience-sub">Building modern web applications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Hire Me Section -->
+  <section class="why-hire-me" id="why-hire-me">
+    <div class="container">
+      <h2 class="section-title">Why <span class="gradient-text">Hire Me</span>?</h2>
+      <p class="section-subtitle">Committed to delivering high-quality, responsive, and user-friendly web solutions with a strong focus on modern design standards and attention to detail.</p>
+      
+
+      <div class="hire-grid">
+        <div class="hire-image">
+          <div class="hire-image-content">
+            <img src="pic/sec pic (2).jpeg" alt="Asharib Khan" class="hire-profile-img">
+          </div>
+        </div>
+        <div class="hire-content">
+
+          <div>
+            <h3 class="contact-heading">Why <span class="gradient-text">Hire Me</span>?</h3>
+            <h3 class="contact-heading">Turning Ideas <span class="gradient-text">Into Reality</span></h3>
+            <p class="service-desc">I am <span class="gradient-text">Muhammad Asharib Khan </span>, a Frontend Developer specializing in HTML, CSS, JavaScript Tailwind CSS and TypeScript .My mission is to build visually stunning, high-performance web applications that provide seamless user experiences.</p>
+            </div>
+
+          <ul class="hire-list">
+            <li>
+              <span class="check-icon"><i class="fas fa-check"></i></span>
+              <span>1 Years of hands-on experience in Frontend Development</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fas fa-check"></i></span>
+              <span>Proficient in responsive web design and UI/UX principles.</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fas fa-check"></i></span>
+              <span>Skilled in building reusable and scalable components</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fas fa-check"></i></span>
+              <span>Passionate about clean code, performance, and design</span>
+            </li>
+          </ul>
+          <div class="hire-buttons">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+            <a href="dist/Blue and Gray Simple Professional CV Resume.pdf" class="btn btn-outline">
+              <i class="fas fa-file-alt"></i>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-box">
+        <span class="quote-icon">"</span>
+        <p class="quote-text">“I believe great design goes beyond looks — it’s about creating experiences that feel intuitive, work seamlessly, and leave a lasting impact. I aim to craft digital products that users love and remember.”</p>
+        <p class="quote-author"><span class="gradient-text">— Muhammad Asharib Khan</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <p class="section-subtitle">Designing sleek, responsive, and user-friendly web interfaces with modern tools for smooth and polished user experiences.</p>
+      
+      <!-- Single Skill Display -->
+      <div class="skill-single" id="skill-single">
+        <div class="skill-card-single">
+          <div class="skill-logo-wrapper">
+            <img src="" alt="" id="skill-logo" class="skill-logo">
+          </div>
+          <h3 class="skill-name-single" id="skill-name"></h3>
+          <p class="skill-desc-single" id="skill-desc"></p>
+        </div>
+        <div class="skill-progress" id="skill-progress"></div>
+        <button class="skip-animation" id="skip-animation">Skip animation & show all skills</button>
+      </div>
+
+      <!-- All Skills Grid -->
+      <div class="skills-grid" id="skills-grid">
+        <!-- Skills will be populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Premium <span class="gradient-text">Services</span></h2>
+      <p class="section-subtitle">Comprehensive web development solutions tailored to your needs</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="service-title">Frontend Mastery</h3>
+          <p class="service-desc">Building responsive, interactive, and high-performance web applications using HTML, CSS/SCSS, JavaScript.</p>
+          <ul class="service-features">
+            <li><span class="dot"></span>HTML</li>
+            <li><span class="dot"></span>CSS\SCSS</li>
+            <li><span class="dot"></span>JavaScript</li>
+            <li><span class="dot"></span>TypeScript</li>
+          </ul>
+          <a href="#contact" class="btn btn-service">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="service-title">UI/UX & Design</h3>
+          <p class="service-desc">Designing simple and visually appealing interfaces with smooth experiences on all devices</p>
+          <ul class="service-features">
+            <li><span class="dot"></span>Figma</li>
+            <li><span class="dot"></span>Tailwind CSS</li>
+            <li><span class="dot"></span>Bootstrap</li>
+            <li><span class="dot"></span>Design Systems</li>
+          </ul>
+          <a href="#contact" class="btn btn-service">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="service-title">Deployment & Tools</h3>
+          <p class="service-desc">Managing deployment and maintenance of web apps for reliable and fast releases.</p>
+          <ul class="service-features">
+            <li><span class="dot"></span>Vercel</li>
+            <li><span class="dot"></span>Netlify</li>
+            <li><span class="dot"></span>GitHub</li>
+            <li><span class="dot"></span>VS Code</li>
+          </ul>
+          <a href="#contact" class="btn btn-service">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="services-cta">
+        <a href="#contact" class="btn btn-primary btn-large">Hire Me Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Asharib Khan</span> Projects</h2>
+      <p class="section-subtitle">A showcase of my recent work and personal projects</p>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image"><img src="pic/project1.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>UI Components</span>
+            </div>
+            <h3 class="project-title">UI Code Generator</h3>
+            <p class="project-desc">UI Generator is a modern web application that helps developers create responsive and customizable UI components. It features real-time preview, one-click code export, and a clean, professional interface — reflecting creativity and strong front-end development skills.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://ui-code.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/project2.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Social Web</span>
+            </div>
+            <h3 class="project-title">MyBindle</h3>
+            <p class="project-desc">MyBindle is a social app built using HTML, Tailwind CSS, and JavaScript, and deployed on Netlify for a fast and modern user experience.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://my-bindle.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/project3.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Food Web App</span>
+            </div>
+            <h3 class="project-title">Food Shop</h3>
+            <p class="project-desc">A responsive single-page food delivery landing site built with HTML and CSS, featuring sections like menu, reviews, and call-to-action — designed for a smooth user experience on all devices.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://devfoodie.netlify.app" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro4.png" alt=""></div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Restaurant Web</span>
+            </div>
+            <h3 class="project-title">Sushi Restaurant</h3>
+            <p class="project-desc">This is a static Sushi Restaurant landing page converted from a Figma design into clean, semantic HTML and CSS. The project focuses on layout accuracy, responsive design, and pixel-perfect implementation.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://rest-dev.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro5.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Coffie Shop Web</span>
+            </div>
+            <h3 class="project-title">Coffie Shop</h3>
+            <p class="project-desc">This is a static coffee shop landing page created by converting a Figma template into core HTML and CSS. The website emphasizes modern design, clean layout, and responsive styling.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://coffee-dev.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro6.png" alt=""></div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Clothing Web</span>
+            </div>
+            <h3 class="project-title">Rivo Shopping Web</h3>
+            <p class="project-desc">Rivo clothing website converted from a Figma design into core HTML and CSS.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://rivo-web.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro7.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Medical Web</span>
+            </div>
+            <h3 class="project-title">Solus Web</h3>
+            <p class="project-desc">This project is developed from a Figma template. The entire user interface is built using HTML and CSS, and the website is fully responsive across all devices.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://solus-web.netlify.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro9.png" alt=""></div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Currency web App</span>
+            </div>
+            <h3 class="project-title">Currency Converter</h3>
+            <p class="project-desc">A dynamic currency converter built with HTML, CSS, and JavaScript, featuring real-time API integration and a responsive, user-friendly interface. Developed as part of a software house assignment.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://currency-converter-app-black-gamma.vercel.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro8.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Ticket web App</span>
+            </div>
+            <h3 class="project-title">Ticket Web</h3>
+            <p class="project-desc">A responsive single-page ticket booking website built with HTML and CSS, featuring event listings and a clean, user-friendly layout..</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://nexusaweb.netlify.app" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro10.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>Travel web App</span>
+            </div>
+            <h3 class="project-title">Travel Destination</h3>
+            <p class="project-desc">A responsive Travel Destination website built using HTML and CSS, developed as part of a software house assignment with a focus on clean layout and user-friendly design.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://travel-destinations-livid.vercel.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro11.png" alt=""></div>
+          <div class="project-content">
+             <div class="project-tags">
+              <span>ProLaunch web App</span>
+            </div>
+            <h3 class="project-title">ProLaunch Product landing Page</h3>
+            <p class="project-desc">ProLaunch – A responsive product landing page built with HTML, CSS, and JavaScript for a software house assignment.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://static-product-landing-page.vercel.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image"><img src="pic/pro12.png" alt=""></div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Quiz web App</span>
+            </div>
+            <h3 class="project-title">Quiz App</h3>
+            <p class="project-desc">An interactive quiz app developed with HTML, CSS, and JavaScript for a software house assignment.</p>
+            <div class="project-footer">
+              <span class="project-author">Asharib Khan</span>
+              <div class="project-links">
+                <a href="https://github.com/asharibkhan333" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://quiz-app-sable-seven-61.vercel.app/" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text">Work Experience</span></h2>
+      <p class="section-subtitle">My professional journey in web development</p>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">Aykays</h3>
+            <div class="timeline-role">
+              <i class="fas fa-briefcase"></i>
+              <span>Frontend Developer</span>
+            </div>
+            <div class="timeline-date">
+              <i class="fas fa-calendar-alt"></i>
+              <span>July 2025 - Sep 2025</span>
+            </div>
+            <p class="timeline-desc">Working at Aykays on modern frontend projects, building scalable UI components with HTML, CSS/SCSS, and JavaScript, and collaborating with the team to enhance performance, UX, and design workflows.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">Self Projects</h3>
+            <div class="timeline-role">
+              <i class="fas fa-briefcase"></i>
+              <span>Web Developer</span>
+            </div>
+            <div class="timeline-date">
+              <i class="fas fa-calendar-alt"></i>
+              <span>Ongoing</span>
+            </div>
+            <p class="timeline-desc">Built multiple frontend projects using HTML, JavaScript, Tailwind CSS, and custom CSS, focusing on responsive designs, smooth UI, and optimized performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      <p class="section-subtitle">Have a project in mind? Let's work together to bring your ideas to life.</p>
+      
+      <div class="contact-card">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="contact-heading">Contact Information</h3>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <p class="contact-label">Email</p>
+                <a href="mailto:asharib@example.com" class="contact-value">asharibasharibkhan162@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <p class="contact-label">Phone</p>
+                <a href="tel:+1234567890" class="contact-value">03192117647</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <p class="contact-label">Location</p>
+                <p class="contact-value">Pakistan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <h3 class="contact-heading">Connect With Me</h3>
+            <p class="contact-social-text">Follow me on social media to stay updated with my latest projects and insights.</p>
+            
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1JsxAtj3qy/" class="social-link facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/asharikhan123?t=9BQ1yl5gluHxcsyO4OWg5A&s=09" class="social-link twitter" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/asharib-khan-1a963a353" class="social-link linkedin" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://wa.me/qr/OCQIFPBXSRDQK1" class="social-link whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=qp451he" class="social-link instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com/asharibkhan333" class="social-link github" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: Brand Section -->
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <img src="pic/ak.png" alt="AK Logo" class="footer-logo-img">
+          </a>
+          <h3 class="footer-name">Asharib Khan</h3>
+          <p class="footer-tagline">Frontend Developer | Crafting Modern Web Experiences</p>
+          
+          <!-- Social Media Icons -->
+          <div class="footer-social">
+            <a href="https://www.facebook.com/share/1JsxAtj3qy/" class="footer-social-link facebook" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=qp451he" class="footer-social-link instagram" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/asharikhan123?t=9BQ1yl5gluHxcsyO4OWg5A&s=09" class="footer-social-link twitter" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/asharib-khan-1a963a353" class="footer-social-link linkedin" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/asharibkhan333" class="footer-social-link github" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/qr/OCQIFPBXSRDQK1" class="footer-social-link whatsapp" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div class="footer-nav">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Services -->
+        <div class="footer-services">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links-list">
+            <li><span>Frontend Development</span></li>
+            <li><span>website Development</span></li>
+            <li><span>Responsive Design</span></li>
+            <li><span>UI/UX Optimization</span></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact -->
+        <div class="footer-contact">
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-info">
+            <p class="contact-name">Asharib Khan</p>
+            <a href="tel:+12345678900" class="footer-contact-item">
+              <i class="fas fa-phone"></i>
+              <span>03192117647</span>
+            </a>
+            <a href="mailto:asharib@example.com" class="footer-contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>asharibasharibkhan162@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© 2025 <span class="gradient-text">Asharib Khan</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+  <script src="/Array.js"></script>
+  <script src="/const.js"></script>
+</body>
+</html>

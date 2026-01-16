@@ -64,7 +64,7 @@ img {
   background-clip: text;
 }
 
-  /* NAVBAR */
+/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -257,7 +257,7 @@ img {
   margin: 2.5px 0;
 }
 
-   /* MOBILE SIDE MENU */
+/* MOBILE SIDE MENU */
 .mobile-menu-overlay {
   position: fixed;
   inset: 0;
@@ -434,7 +434,7 @@ body.menu-open {
   }
 }
 
-   /* BUTTONS */
+/* BUTTONS */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -518,7 +518,7 @@ body.menu-open {
   font-size: 1.1rem;
 }
 
-   /* HERO SECTION */
+/* HERO SECTION */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -625,7 +625,7 @@ body.menu-open {
   animation: scroll 2s infinite;
 }
 
-   /* INTRO SECTION */
+/* INTRO SECTION */
 .intro {
   padding: 6rem 0;
   background: var(--bg-secondary);
@@ -691,7 +691,7 @@ body.menu-open {
   gap: 1rem;
 }
 
-   /* SECTION STYLES */
+/* SECTION STYLES */
 section {
   padding: 5rem 0;
 }
@@ -710,7 +710,7 @@ section {
   font-size: 1.05rem;
 }
 
-   /* ABOUT SECTION */
+/* ABOUT SECTION */
 .about {
   background: var(--bg-primary);
 }
@@ -787,7 +787,7 @@ section {
   }
 }
 
-   /* WHY HIRE ME SECTION */
+/* WHY HIRE ME SECTION */
 .why-hire-me {
   background: var(--bg-secondary);
 }
@@ -939,7 +939,7 @@ section {
   }
 }
 
-   /* SKILLS SECTION */
+/* SKILLS SECTION */
 .skills {
   background: var(--bg-primary);
 }
@@ -1091,7 +1091,7 @@ section {
   color: var(--text-muted);
 }
 
-   /* SERVICES SECTION */
+/* SERVICES SECTION */
 .services {
   background: var(--bg-secondary);
 }
@@ -1169,7 +1169,7 @@ section {
   text-align: center;
 }
 
-   /* PROJECTS SECTION */
+/* PROJECTS SECTION */
 .projects {
   background: var(--bg-primary);
 }
@@ -1280,7 +1280,7 @@ section {
   color: white;
 }
 
-   /* EXPERIENCE SECTION */
+/* EXPERIENCE SECTION */
 .experience {
   background: var(--bg-secondary);
 }
@@ -1368,7 +1368,7 @@ section {
   line-height: 1.7;
 }
 
-   /* CONTACT SECTION */
+/* CONTACT SECTION */
 .contact {
   background: var(--bg-primary);
 }
@@ -1708,7 +1708,7 @@ section {
   transition: color 0.4s ease;
 }
 
-   /* FOOTER RESPONSIVE */
+/* FOOTER RESPONSIVE */
 @media (max-width: 992px) {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1758,7 +1758,7 @@ section {
   }
 }
 
-   /* ANIMATIONS */
+/* ANIMATIONS */
 .fade-in {
   animation: fadeIn 0.6s ease forwards;
 }
